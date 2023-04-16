@@ -39,7 +39,8 @@
         
         #inicio .contenido header .contenido-header h1 {
             text-align: center;
-            color: #ff5080;
+            /*color: #ff5080;*/
+            color: #FFFF33;
         }
         
         #inicio .contenido header .contenido-header nav ul {
@@ -57,7 +58,8 @@
         }
         
         #inicio .contenido header .contenido-header nav ul li a:hover {
-            color: #ff5080;
+            /*color: #ff5080;*/
+            color: #27ba3b
         }
         
         #inicio .contenido header .contenido-header .redes a {
@@ -70,10 +72,12 @@
         
         #inicio .contenido header .contenido-header .redes a:hover {
             color: #ff5080;
+            /*color: #27ba3b;*/
         }
         
         #inicio .contenido header .contenido-header .seleccionado {
             color: #ff5080;
+            /*color: #27ba3b;*/
         }
         
         #inicio .contenido .presentacion {
@@ -100,9 +104,18 @@
             text-align: center;
         }
         
-        #inicio .contenido .presentacion h2 span, h4 span {
+        #inicio .contenido .presentacion h2 span {
+            font-size: 40px;
+            /*color: #ff5080;*/
+            color: #83FF33;
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        }
+        
+        #inicio .contenido .presentacion h4 span {
             font-size: 20px;
-            color: #ff5080;
+            /*color: #ff5080;*/
+            color: #83FF33;
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
         }
         
         #inicio .contenido .presentacion .descripcion {
