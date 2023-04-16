@@ -40,7 +40,8 @@
         #inicio .contenido header .contenido-header h1 {
             text-align: center;
             /*color: #ff5080;*/
-            color: #FFFF33;
+            /*color: #FFFF33;*/
+            color: #83FF33;
         }
         
         #inicio .contenido header .contenido-header nav ul {
@@ -68,16 +69,19 @@
             display: inline-block;
             margin-left: 10px;
             transition: .5s;
+            font-size: x-large;
         }
         
         #inicio .contenido header .contenido-header .redes a:hover {
-            color: #ff5080;
+            /*color: #ff5080;*/
             /*color: #27ba3b;*/
+            color: #FFFF33;
         }
         
         #inicio .contenido header .contenido-header .seleccionado {
-            color: #ff5080;
+            /*color: #ff5080;*/
             /*color: #27ba3b;*/
+            color: #FFFF33;
         }
         
         #inicio .contenido .presentacion {
