@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 
 function SeccionInicio(){
 
-    return (
+    return (<>
         <section id="inicio">
             <div class="contenido">
                 <header>
@@ -14,7 +14,7 @@ function SeccionInicio(){
                             <ul id="links">
                                 <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
                                 <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
-                                <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                                <li><a href="#skills" onclick="seleccionar(this)">SKILLS</a></li>
                                 <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
                                 <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
                             </ul>
@@ -41,7 +41,7 @@ function SeccionInicio(){
                 </div>
             </div>
         </section>
-
+        </>
     )
 }
 export default SeccionInicio
