@@ -297,16 +297,14 @@
             height: 6px;
             animation: progreso4 2s forwards;
         }
-        .skill table td{
-            padding: 5px;
+        
+        div.col{
+            
+            padding: 15px !important;
         }
-        .skill table td div{
+        .icon-skill{
             width: 48px;
             height: 48px;
-        }
-        .skill table img{
-            background-color: white;
-            
         }
 
         @keyframes progreso1 {
