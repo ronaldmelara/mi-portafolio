@@ -6,11 +6,11 @@ function SeccionSobreMi(){
     return (
     <>
     <section id="sobremi">
-        <div class="contenedor-foto">
+        <div className="contenedor-foto">
             <img src="../src/assets/foto.jpg" alt=""/>
         </div>
-        <div class="sobremi">
-            <p class="titulo-seccion">Sobre Mi/About Me</p>
+        <div className="sobremi">
+            <p className="titulo-seccion">Sobre Mi/About Me</p>
             <h2>Hola, Soy <span>Ronald Melara</span> </h2>
             <h3>Desarrollador Senior</h3>
             <p>Más de 14 años de experiencia en desarrollo de proyectos de diversos rubros: Sector Público, Banca, Farmacéutica, etc. He participado desde el diseño, hasta puesta en marcha en ambientes productivos de aplicaciones Web, Servicios REST, App Móvil, entre otros.</p>

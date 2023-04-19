@@ -6,141 +6,141 @@ function SeccionHabilidades(){
     return (
         <>
         <section id="skills">
-        <div class="contenedor-skills" id="skills">
+        <div className="contenedor-skills" id="skills">
         <h3>Skills </h3>
-        <div class="skill">
-            <div class="container">
-                <div class="row">
-                    <div class="col d-flex flex-column align-items-center">
-                        <img class="icon-skill" src='../src/assets/bootstrap_plain_wordmark_logo_icon_146620.png'/>
+        <div className="skill">
+            <div className="container">
+                <div className="row">
+                    <div className="col d-flex flex-column align-items-center">
+                        <div className="icon-skill2 icon-bootstrap"></div>
                         <br/>
                         Bootstrap
                     </div>
-                    <div class="col d-flex flex-column align-items-center">
-                        <img class="icon-skill" src='../src/assets/c_sharp_icon_213045.png'/>
+                    <div className="col d-flex flex-column align-items-center">
+                        <div className="icon-skill2 icon-csharp"></div>
                         <br/>
                         C Sharp</div>
-                    <div class="col d-flex flex-column align-items-center">
-                        <img class="icon-skill" src='../src/assets/confluence_original_wordmark_logo_icon_146588.png'/>
+                    <div className="col d-flex flex-column align-items-center">
+                        <div className="icon-skill2 icon-confluence"></div>
                         <br/>
                         Confluence</div>
-                    <div class="col d-flex flex-column align-items-center">
-                        <img class="icon-skill" src='../src/assets/css_3721.png'/><br/>
+                    <div className="col d-flex flex-column align-items-center">
+                        <div className="icon-skill2 icon-css"></div><br/>
                         CSS</div>  
-                    <div class="col d-flex flex-column align-items-center">
-                        <img class="icon-skill" src='../src/assets/dot_net_plain_wordmark_logo_icon_146545.png'/><br/>
+                    <div className="col d-flex flex-column align-items-center">
+                        <div className="icon-skill2 icon-dotnet"></div><br/>
                         .NET</div>               
                 </div>
                
                
-                <div class="row">
-                    <div class="col d-flex flex-column align-items-center">
-                        <img class="icon-skill" src='../src/assets/file_type_js_official_icon_130509.png'/><br/>
+                <div className="row">
+                    <div className="col d-flex flex-column align-items-center">
+                        <div className="icon-skill2 icon-js"></div><br/>
                         Javascript
                     </div>
-                    <div class="col d-flex flex-column align-items-center">
-                        <img class="icon-skill" src='../src/assets/git_original_wordmark_logo_icon_146510.png'/><br/>
+                    <div className="col d-flex flex-column align-items-center">
+                        <div className="icon-skill2 icon-git"></div><br/>
                         Git
                     </div>
-                    <div class="col d-flex flex-column align-items-center">
-                        <img class="icon-skill" src='../src/assets/golang_official_logo_icon_169092.png'/><br/>
+                    <div className="col d-flex flex-column align-items-center">
+                        <div className="icon-skill2 icon-go"></div><br/>
                         Golang
                     </div>
-                    <div class="col d-flex flex-column align-items-center">
-                        <img class="icon-skill" src='../src/assets/html_application_3021.png'/><br/>
+                    <div className="col d-flex flex-column align-items-center">
+                        <div className="icon-skill2 icon-html"></div><br/>
                         Html
                     </div>
-                    <div class="col d-flex flex-column align-items-center">
-                        <img class="icon-skill" src='../src/assets/java_original_wordmark_logo_icon_146459.png'/><br/>
+                    <div className="col d-flex flex-column align-items-center">
+                        <div className="icon-skill2 icon-java"></div><br/>
                         Java
                     </div>           
                 </div>
               
-                <div class="row">
-                    <div class="col d-flex flex-column align-items-center">
-                        <img class="icon-skill" src='../src/assets/jquery_plain_wordmark_logo_icon_146445.png'/><br/>
+                <div className="row">
+                    <div className="col d-flex flex-column align-items-center">
+                        <div className="icon-skill2 icon-jquery"></div><br/>
                         JQuery
                     </div>
-                    <div class="col d-flex flex-column align-items-center">
-                        <img class="icon-skill" src='../src/assets/json_file_icon_215021.png'/><br/>
+                    <div className="col d-flex flex-column align-items-center">
+                        <div className="icon-skill2 icon-json"></div><br/>
                         JSON
                     </div>
-                    <div class="col d-flex flex-column align-items-center">
-                        <img class="icon-skill" src='../src/assets/mysql_official_logo_icon_169938.png'/><br/>
+                    <div className="col d-flex flex-column align-items-center">
+                        <div className="icon-skill2 icon-mysql"></div><br/>
                         MySQL
                     </div>
-                    <div class="col d-flex flex-column align-items-center">
-                        <img class="icon-skill" src='../src/assets/react_original_wordmark_logo_icon_146375.png'/><br/>
+                    <div className="col d-flex flex-column align-items-center">
+                        <div className="icon-skill2 icon-react"></div><br/>
                         React
                     </div>
-                    <div class="col d-flex flex-column align-items-center">
-                        <img class="icon-skill" src='../src/assets/teamcity_94405.png'/><br/>
+                    <div className="col d-flex flex-column align-items-center">
+                        <div className="icon-skill2 icon-teamcity"></div><br/>
                         TeamCity
                     </div>              
                 </div>
 
-                <div class="row">
-                    <div class="col d-flex flex-column align-items-center">
-                        <img class="icon-skill" src='../src/assets/atlassian_jira_logo_icon_170511.png'/><br/>
+                <div className="row">
+                    <div className="col d-flex flex-column align-items-center">
+                        <div className="icon-skill2 icon-jira"></div><br/>
                         Jira
                     </div>
-                    <div class="col d-flex flex-column align-items-center">
-                        <img class="icon-skill" src='../src/assets/bitbucket_original_wordmark_logo_icon_146622.png'/><br/>
+                    <div className="col d-flex flex-column align-items-center">
+                        <div className="icon-skill2 icon-bitbucket"></div><br/>
                         Bitbucket
                     </div>
-                    <div class="col d-flex flex-column align-items-center">
-                        <img class="icon-skill" src='../src/assets/file_type_sql_icon_130152.png'/><br/>
+                    <div className="col d-flex flex-column align-iteitbucketms-center">
+                        <div className="icon-skill2 icon-sql"></div><br/>
                         SQL Server
                     </div>
-                    <div class="col d-flex flex-column align-items-center">
-                        <img class="icon-skill" src='../src/assets/Visual_Studio_icon-icons.com_56597.png'/><br/>
+                    <div className="col d-flex flex-column align-items-center">
+                        <div className="icon-skill2 icon-vs"></div><br/>
                         Visual Studio
                     </div> 
-                    <div class="col d-flex flex-column align-items-center">
-                        <img class="icon-skill" src='../src/assets/spring.png' width={48} height={48}/><br/>
+                    <div className="col d-flex flex-column align-items-center">
+                        <div className="icon-skill2 icon-sprintboot"></div><br/>
                         Sprintboot
                     </div>             
                 </div>
             </div>
         </div>
-        <div class="skill">
-            <div class="info">
-                <p> <span class="lista"> </span>Html & Css</p>
-                <span class="porcentaje">95%</span>
+        <div className="skill">
+            <div className="info">
+                <p> <span className="lista"> </span>Html & Css</p>
+                <span className="porcentaje">95%</span>
             </div>
 
-            <div class="barra">
-                <div class="" id="html"></div>
+            <div className="barra">
+                <div className="" id="html"></div>
             </div>
         </div>
-        <div class="skill">
-            <div class="info">
-                <p> <span class="lista"> </span>Javascript</p>
-                <span class="porcentaje">90%</span>
+        <div className="skill">
+            <div className="info">
+                <p> <span className="lista"> </span>Javascript</p>
+                <span className="porcentaje">90%</span>
             </div>
 
-            <div class="barra">
-                <div class="" id="js"></div>
+            <div className="barra">
+                <div className="" id="js"></div>
             </div>
         </div>
-        <div class="skill">
-            <div class="info">
-                <p> <span class="lista"> </span>Bases de Datos</p>
-                <span class="porcentaje">90%</span>
+        <div className="skill">
+            <div className="info">
+                <p> <span className="lista"> </span>Bases de Datos</p>
+                <span className="porcentaje">90%</span>
             </div>
 
-            <div class="barra">
-                <div class="" id="bd"></div>
+            <div className="barra">
+                <div className="" id="bd"></div>
             </div>
         </div>
-        <div class="skill">
-            <div class="info">
-                <p> <span class="lista"> </span>Photoshop</p>
-                <span class="porcentaje">85%</span>
+        <div className="skill">
+            <div className="info">
+                <p> <span className="lista"> </span>Photoshop</p>
+                <span className="porcentaje">85%</span>
             </div>
 
-            <div class="barra">
-                <div class="" id="ps"></div>
+            <div className="barra">
+                <div className="" id="ps"></div>
             </div>
         </div>
     </div>

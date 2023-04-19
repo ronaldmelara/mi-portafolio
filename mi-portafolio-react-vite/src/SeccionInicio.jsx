@@ -6,13 +6,13 @@ function SeccionInicio(){
 
     return (<>
         <section id="inicio">
-            <div class="contenido">
+            <div className="contenido">
                 <header>
-                    <div class="contenido-header">
+                    <div className="contenido-header">
                         <h1>/RM/</h1>
-                        <nav id="nav" class="">
+                        <nav id="nav" className="">
                             <ul id="links">
-                                <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                                <li><a href="#inicio" className="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
                                 <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
                                 <li><a href="#skills" onclick="seleccionar(this)">SKILLS</a></li>
                                 <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
@@ -21,22 +21,22 @@ function SeccionInicio(){
                         </nav>
 
                         <div id="icono-nav" onclick="responsiveMenu()">
-                            <i class="fa-solid fa-bars"></i>
+                            <i className="fa-solid fa-bars"></i>
                         </div>
     
     
-                        <div class="redes">
-                            <a href="https://www.linkedin.com/in/ronaldmelara/" target="_blank" ><i class="fa-brands fa-linkedin"></i></a>
-                            <a href="https://github.com/ronaldmelara" target="_blank"><i class="fa-brands fa-github"></i></a>
-                            <a href="https://www.instagram.com/lente.estiloso/" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+                        <div className="redes">
+                            <a href="https://www.linkedin.com/in/ronaldmelara/" target="_blank" ><i className="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/ronaldmelara" target="_blank"><i className="fa-brands fa-github"></i></a>
+                            <a href="https://www.instagram.com/lente.estiloso/" target="_blank"><i className="fa-brands fa-instagram-square"></i></a>
                         </div>
                     </div>
                 </header>
-                <div class="presentacion">
-                    <p class="bienvenida">Bienvenidos/Welcome</p>
+                <div className="presentacion">
+                    <p className="bienvenida">Bienvenidos/Welcome</p>
                     <h2>Soy <span>Ronald Melara</span>, Desarrollador Web</h2>
                     <h4>I am <span>Ronald Melara</span>, Web Developer</h4>
-                    <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, </p>
+                    <p className="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, </p>
                     <a href="#portfolio">Ir a Portafolio</a>
                 </div>
             </div>

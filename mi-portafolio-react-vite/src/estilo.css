@@ -302,10 +302,103 @@
             
             padding: 15px !important;
         }
-        .icon-skill{
-            width: 48px;
-            height: 48px;
+        .skill .container{
+            background-color: rgba(255, 255, 255, 0.3);
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
         }
+       
+        .icon-skill2{
+            width: 100%;
+            height: 48px;
+            background-position-x: center;
+            background-position-y: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+       
+            
+  
+        }
+        .icon-go{
+            background-image: url('./assets/golang_official_logo_icon_169092.png');
+        }
+        .icon-sprintboot{
+            background-image: url('./assets/spring.jpg');
+        }
+        .icon-css{
+            background-image: url('./assets/css_3721.png');
+        }
+        .icon-jira{
+            background-image: url('./assets/atlassian_jira_logo_icon_170511.png');
+        }
+        .icon-bitbucket{
+            background-image: url('./assets/bitbucket_original_wordmark_logo_icon_146622.png');
+        }
+        .icon-bootstrap{
+            background-image: url('./assets/bootstrap_plain_wordmark_logo_icon_146620.png');
+        }
+        .icon-csharp{
+            background-image: url('./assets/c_sharp_icon_213045.png');
+        }
+        .icon-confluence{
+            background-image: url('./assets/confluence_original_wordmark_logo_icon_146588.png');
+        }
+        .icon-dotnet{
+            background-image: url('./assets/dot_net_plain_wordmark_logo_icon_146545.png');
+        }
+        .icon-js{
+            background-image: url('./assets/file_type_js_official_icon_130509.png');
+        }
+        .icon-sql{
+            background-image: url('./assets/file_type_sql_icon_130152.png');
+        }
+        .icon-git{
+            background-image: url('./assets/git_original_wordmark_logo_icon_146510.png');
+        }
+        .icon-html{
+            background-image: url('./assets/html_application_3021.png');
+        }
+        .icon-java{
+            background-image: url('./assets/java_original_wordmark_logo_icon_146459.png');
+        }
+        .icon-jquery{
+            background-image: url('./assets/jquery_plain_wordmark_logo_icon_146445.png');
+        }
+        .icon-json{
+            background-image: url('./assets/json_file_icon_215021.png');
+        }
+        .icon-mysql{
+            background-image: url('./assets/mysql_official_logo_icon_169938.png');
+        }
+        .icon-react{
+            background-image: url('./assets/react_original_wordmark_logo_icon_146375.png');
+        }
+        .icon-spring{
+            background-image: url('./assets/spring.png');
+        }
+        .icon-teamcity{
+            background-image: url('./assets/teamcity_94405.png');
+        }
+        .icon-vs{
+            background-image: url('./assets/Visual_Studio_icon-icons.com_56597.png');
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         @keyframes progreso1 {
             0% {
