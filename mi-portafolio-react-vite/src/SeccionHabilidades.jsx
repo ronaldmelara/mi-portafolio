@@ -71,7 +71,7 @@ function SeccionHabilidades(){
                     </div>
                     <div className="col d-flex flex-column align-items-center">
                         <div className="icon-skill2 icon-react"></div><br/>
-                        React
+                        React JS
                     </div>
                     <div className="col d-flex flex-column align-items-center">
                         <div className="icon-skill2 icon-teamcity"></div><br/>
@@ -103,46 +103,29 @@ function SeccionHabilidades(){
                 </div>
             </div>
         </div>
+        <h3>Otros Skills</h3>
         <div className="skill">
             <div className="info">
-                <p> <span className="lista"> </span>Html & Css</p>
-                <span className="porcentaje">95%</span>
-            </div>
-
-            <div className="barra">
-                <div className="" id="html"></div>
+                <p> <span className="lista"> </span>Construcción de Web API Rest, Continuous Deployment</p>
+               
             </div>
         </div>
         <div className="skill">
             <div className="info">
-                <p> <span className="lista"> </span>Javascript</p>
-                <span className="porcentaje">90%</span>
+                <p> <span className="lista"> </span>Dominio de Agile. Experiencia trabajando con Sprint, Daily, ceremonias de inicio y cierre. Refinamientos y retrospectiva. Experiencia liderando como Deputy de Scrum Master.</p>
             </div>
 
-            <div className="barra">
-                <div className="" id="js"></div>
-            </div>
         </div>
+       
         <div className="skill">
             <div className="info">
-                <p> <span className="lista"> </span>Bases de Datos</p>
-                <span className="porcentaje">90%</span>
+                <p> <span className="lista"> </span>Trabajo en equipo, proactividad, facilidad de adaptación y aprendizaje. </p>
+                
             </div>
 
-            <div className="barra">
-                <div className="" id="bd"></div>
-            </div>
+           
         </div>
-        <div className="skill">
-            <div className="info">
-                <p> <span className="lista"> </span>Photoshop</p>
-                <span className="porcentaje">85%</span>
-            </div>
-
-            <div className="barra">
-                <div className="" id="ps"></div>
-            </div>
-        </div>
+        
     </div>
     </section>
     </>

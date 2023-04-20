@@ -253,6 +253,7 @@
         .contenedor-skills .skill .info {
             display: flex;
             justify-content: space-between;
+            text-align: justify;
         }
         
         .contenedor-skills .skill .lista {
@@ -303,11 +304,12 @@
             padding: 15px !important;
         }
         .skill .container{
-            background-color: rgba(255, 255, 255, 0.3);
+            background-color: rgba(255, 255, 255, 0.6);
             border-top-left-radius: 20px;
             border-top-right-radius: 20px;
             border-bottom-left-radius: 20px;
             border-bottom-right-radius: 20px;
+            color:#111135;
         }
        
         .icon-skill2{
@@ -325,7 +327,7 @@
             background-image: url('./assets/golang_official_logo_icon_169092.png');
         }
         .icon-sprintboot{
-            background-image: url('./assets/spring.jpg');
+            background-image: url('./assets/spring.png');
         }
         .icon-css{
             background-image: url('./assets/css_3721.png');
@@ -373,7 +375,7 @@
             background-image: url('./assets/mysql_official_logo_icon_169938.png');
         }
         .icon-react{
-            background-image: url('./assets/react_original_wordmark_logo_icon_146375.png');
+            background-image: url('./assets/reactjs.png');
         }
         .icon-spring{
             background-image: url('./assets/spring.png');
