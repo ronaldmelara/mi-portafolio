@@ -1,35 +1,56 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import Carousel from "nuka-carousel"
+import jobs from '../src/jobs.json';
+import projects from '../src/projects.json'
 
 function SeccionPortafolio(){
+    const [listJobs, setListJobs] = useState([]);
+    const [listProjects, setListProjects] = useState([]);
+
+    useEffect(()=> {
+       setListJobs(jobs);
+       setListProjects(projects);
+    },[])
+
     return (
         <>
         <section id="portfolio">
-        <h3 className="titulo-seccion">Proyectos</h3>
-        <div className='row'>
-            <div className='col-1'></div>
-            <div className='col-10'>
-            <p>Estas son algunas de las compañías para las que he trabajado:</p>
+            <h3 className="titulo-seccion">Proyectos</h3>
+
+
+            <br/>
+            <p className='d-flex justify-content-center' id="description-portafolio">Estas son algunas de las compañías para las que he trabajado:</p>
 
             <Carousel autoplay="true" wrapAround="true" adaptiveHeight="true" withoutControls="true" animation='fade' slidesToShow={2}>
-            <img src="../src/assets/companies/banco_estado.png" alt="Banco del Estado de Chile"/>
-            <img src="../src/assets/companies/ine_chile.png" alt="Instituto Nacional de Estadísticas de Chile" />
-            <img src="../src/assets/companies/kibernum.png" alt="Kibernum Chile"/>
-            <img src="../src/assets/companies/novofarma_services.png" alt="Novofarma Services"/>
-            <img src="../src/assets/companies/penta.png" alt="Penta Security"/>
-            <img src="../src/assets/companies/tecnigen_logo.png" alt="Tecnigen"/>
+
+                {listJobs.map((item) => (
+                <img src={ item.logo } alt={ item.company } />
+                ))}
+           
             </Carousel>
 
-       
-            </div>
-            <div className='col-1'></div>
-            
-        </div>
-        <div className='row'>
+            <br/>
+            <p className='d-flex justify-content-center' id="description-portafolio">Mis proyectos personales:</p>
 
-        </div>
+
+            <div class="fila">
+
+                {listProjects.map((item) => (
+               
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src={item.image} alt=""/>
+                    <div class="info">
+                        <h4>{item.description}</h4>
+                        <p>{item.name}</p>
+                    </div>
+                </div>
+                ))}
+
+                
+            </div>
 
         </section>
         
