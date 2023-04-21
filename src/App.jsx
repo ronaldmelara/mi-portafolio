@@ -6,6 +6,8 @@ import SeccionInicio from './SeccionInicio'
 import SeccionSobreMi from './SeccionSobreMi'
 import SeccionHabilidades from './SeccionHabilidades'
 import SeccionPortafolio from './SeccionPortafolio'
+import SeccionContacto from './SeccionContacto'
+import Footer from './footer'
 
 function App() {
     const [count, setCount] = useState(0)
@@ -20,6 +22,9 @@ function App() {
 
       <SeccionPortafolio/>
         
+        <SeccionContacto/>
+
+        <Footer/>
         </div>
     )
   }
