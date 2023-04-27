@@ -4,8 +4,8 @@ import viteLogo from '/vite.svg'
 import emailjs from "emailjs-com"
 import ApiKey from '../src/ApiKey.js'
 
-import { toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import { ToastContainer, toast } from 'react-toastify';
+import "../src/ReactToastify.css"
     
 
 
@@ -16,11 +16,11 @@ function SeccionContacto(){
         message: "",
       });
 
-      const [formErrors, setFormErrors] = useState({
+      /*const [formErrors, setFormErrors] = useState({
         name: "",
         email: "",
         message: "",
-      });
+      });*/
   
       const handleSubmit = (event) => {
           event.preventDefault();
@@ -31,21 +31,33 @@ function SeccionContacto(){
           let errors = {};
           let isValid = true;
           if (!name.trim()) {
-            errors.name = "Name is required";
+            toast.error('Su Nombre es requerido!', {
+              position: toast.POSITION.TOP_CENTER
+            });
+            //errors.name = "Name is required";
             isValid = false;
           }
           if (!email.trim()) {
-            errors.email = "Email is required";
+            toast.error('Su Email es requerido!', {
+              position: toast.POSITION.TOP_CENTER
+            });
+            //errors.email = "Email is required";
             isValid = false;
           } else if (!/\S+@\S+\.\S+/.test(email)) {
-            errors.email = "Email is invalid";
+            toast.error('El Email no es válido!', {
+              position: toast.POSITION.TOP_CENTER
+            });
+            //errors.email = "Email is invalid";
             isValid = false;
           }
           if (!message.trim()) {
-            errors.message = "Message is required";
+            //errors.message = "Message is required";
+            toast.error('Su Mensaje es requerido!', {
+              position: toast.POSITION.TOP_CENTER
+            });
             isValid = false;
           }
-          setFormErrors(errors);
+          //setFormErrors(errors);
 
 
           // Si el formulario es válido, enviar el correo electrónico
@@ -60,12 +72,18 @@ function SeccionContacto(){
             .then(
                 (result) => {
                   console.log(result.text);
-                  toast.success("Message sent successfully!");
+                  //toast.success("Message sent successfully!");
+                  toast.success('Su mensaje fue envíado a mi casilla de correo. También puedes contáctarme por mis redes sociales.', {
+                    position: toast.POSITION.TOP_CENTER
+                  });
                   setFormValues({ name: "", email: "", message: "" });
                 },
                 (error) => {
                   console.log(error.text);
-                  toast.error("Error sending message");
+                
+                  toast.error('Sucedió un error mientras se enviaba su mensaje. Inténtelo nuevamente o contácteme por mis redes sociales.', {
+                    position: toast.POSITION.TOP_CENTER
+                  });
                 }
               );
             }
@@ -89,17 +107,15 @@ function SeccionContacto(){
             <form onSubmit={handleSubmit} >
                 <div className="fila mitad">
                     <input type="text" placeholder="Nombre Completo *" className="input-mitad" id='name' name='name' value={formValues.name} onChange={handleChange}/>
-                    {formErrors.name && <span className="error">{formErrors.name}</span>}
+                    
                     <input type="email" placeholder="Dirección de Email" className="input-mitad" id='email' name='email' value={formValues.email} onChange={handleChange}/>
-                    {formErrors.email && <span className="error">{formErrors.email}</span>}
+                    
                 </div>
                 <div className="fila">
                     <textarea  name="message" id="message" cols="30" rows="10" placeholder="Tu Mensaje..." className="input-full" value={formValues.message} onChange={handleChange}></textarea>
-                    {formErrors.message && (
-                        <span className="error">{formErrors.message}</span>
-                    )}
+                    
                 </div>
-
+                <ToastContainer />
                 <input type="submit" value="Enviar Mensaje" className="btn-enviar"/>
             </form>
         </div>
