@@ -1,17 +1,20 @@
 [
         {
+            "id" : 1,
             "name": "Perfil Profesional",
             "description": "Perfil profesional basado en React.",
             "image": "../src/assets/proyecto1.jpg",
             "year": "2023"
         },
         {
+            "id" : 2,
             "name": "Trilateración v1.0",
             "description": "WebApi basada en GO. Basada en desafío técnico para MELI.",
             "image": "../src/assets/proyecto2.jpg",
             "year": "2023"
         },
         {
+            "id" : 3,
             "name": "Trilateración v2.0",
             "description": "WebApi basada en GO. Mejora de la version 1.0.",
             "image": "../src/assets/proyecto3.jpg",

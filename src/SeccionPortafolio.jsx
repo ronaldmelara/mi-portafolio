@@ -26,7 +26,7 @@ function SeccionPortafolio(){
             <Carousel autoplay="true" wrapAround="true" adaptiveHeight="true" withoutControls="true" animation='fade' slidesToShow={2}>
 
                 {listJobs.map((item) => (
-                <img src={ item.logo } alt={ item.company } />
+                <img key={item.id} src={ item.logo } alt={ item.company } />
                 ))}
            
             </Carousel>
@@ -35,14 +35,14 @@ function SeccionPortafolio(){
             <p className='d-flex justify-content-center' id="description-portafolio">Mis proyectos personales:</p>
 
 
-            <div class="fila">
+            <div className="fila">
 
                 {listProjects.map((item) => (
                
-                <div class="proyecto">
-                    <div class="overlay"></div>
-                    <img src={item.image} alt=""/>
-                    <div class="info">
+                <div key={item.id} id={`proyecto-${item.id}`} className="proyecto">
+                    <div id={`overlay-${item.id}`}  className="overlay"></div>
+                    <img id={`img-${item.id}`} src={item.image} alt=""/>
+                    <div id={`info-${item.id}`} className="info">
                         <h4>{item.description}</h4>
                         <p>{item.name}</p>
                     </div>

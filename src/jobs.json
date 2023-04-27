@@ -1,29 +1,36 @@
 [
     {
+        "id" :1,
         "company": "Banco del Estado de Chile",
         "logo" : "../src/assets/companies/banco_estado.png"
     },
     {
+        "id" :2,
         "company": "Instituto Nacional de Estadísticas de Chile",
         "logo" : "../src/assets/companies/ine_chile.png"
     },
     {
+        "id" :3,
         "company": "Kibernum",
         "logo" : "../src/assets/companies/kibernum.png"
     },
     {
+        "id" :4,
         "company": "Novofarma Services",
         "logo" : "../src/assets/companies/novofarma_services.png"
     },
     {
+        "id" :5,
         "company": "Penta Security",
         "logo" : "../src/assets/companies/penta.png"
     },
     {
+        "id" :6,
         "company": "Tecnigen",
         "logo" : "../src/assets/companies/tecnigen_logo.png"
     },
     {
+        "id" :7,
         "company": "Etika Consultores",
         "logo" : "../src/assets/companies/tecnigen_logo.png"
     }
