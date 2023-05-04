@@ -1,4 +1,3 @@
 node_modules
-mi-portafolio-react-vite/.DS_Store
-mi-portafolio-react-vite/yarn-error.log
-mi-portafolio-react-vite/src/.DS_Store
+yarn-error.log
+.DS_Store
