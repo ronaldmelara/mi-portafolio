@@ -1,29 +1,30 @@
 
 
-import SeccionInicio from './SeccionInicio'
-import SeccionSobreMi from './SeccionSobreMi'
-import SeccionHabilidades from './SeccionHabilidades'
-import SeccionPortafolio from './SeccionPortafolio'
-import SeccionContacto from './SeccionContacto'
-import Footer from './footer'
+import Header from './components/Header'
+import AboutMe from './components/AboutMe'
+import Skills from './components/Skills'
+import Jobs from './components/Jobs'
+import Contact from './components/Contact'
+import Footer from './components/footer'
 
 function App() {
 
   
     return (
       <div className="App">
-       <SeccionInicio/>
-
-      <SeccionSobreMi/>
       
-      <SeccionHabilidades/>
+      <Header/>
 
-      <SeccionPortafolio/>
+      <AboutMe/>
+      
+      <Skills/>
+
+      <Jobs/>
         
-        <SeccionContacto/>
+      <Contact/>
 
-        <Footer/>
-        </div>
+      <Footer/>
+      </div>
     )
   }
   

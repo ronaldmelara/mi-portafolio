@@ -1,6 +1,4 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 
 
 function seleccionar(link, event) {
@@ -19,7 +17,7 @@ function seleccionar(link, event) {
     x.className = "";
 }
 
-function SeccionInicio(){
+function Header(){
 
     return (<>
         <section id="inicio">
@@ -61,4 +59,4 @@ function SeccionInicio(){
         </>
     )
 }
-export default SeccionInicio
+export default Header

@@ -1,15 +1,13 @@
 import { useEffect, useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import emailjs from "emailjs-com"
-import ApiKey from '../src/ApiKey.js'
+import ApiKey from './ApiKey.js'
 
 import { ToastContainer, toast } from 'react-toastify';
-import "../src/ReactToastify.css"
+import "../ReactToastify.css"
     
 
 
-function SeccionContacto(){
+function Contact(){
     const [formValues, setFormValues] = useState({
         name: "",
         email: "",
@@ -125,4 +123,4 @@ function SeccionContacto(){
 
 }
 
-export default SeccionContacto
+export default Contact
