@@ -56,7 +56,7 @@ function Header(){
                 </div>
             </div>
         </section>
-        <img src={qrCodeImage} alt="Ir a LinkedIn" className="position-fixed bottom-0 end-0 mb-5 me-5" width={120} height={120} />
+        <img src={qrCodeImage} alt="Ir a LinkedIn" className="position-fixed bottom-0 end-0 mb-5 me-5 border border-4 rounded-3" width={120} height={120} />
         </>
     )
 }
