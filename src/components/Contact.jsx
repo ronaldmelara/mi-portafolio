@@ -100,7 +100,7 @@ function Contact(){
 
         <>
         <section id="contacto">
-        <h3 className="titulo-seccion">Contactáme ahora</h3>
+        <h3 className="titulo-seccion">¿Hablamos?</h3>
         <div className="contenedor-form">
             <form onSubmit={handleSubmit} >
                 <div className="fila mitad">

@@ -7,6 +7,8 @@ function Skills(){
         <section id="skills">
         <div className="contenedor-skills" id="skills">
         <h3>Skills </h3>
+        <br/>
+        <p className='d-flex justify-content-center' id="description-portafolio">Mi principal competencia y expertiz se centra en "Desarrollo de Software" puntualmente Web, consola y desktop. <br/>Toda mi experiencia ha estado centrada al desarrollo a nivel empresarial, tanto en BackEnd como FronEnd y obviamente acompañado de sus respectivos gestores de bases de datos.</p>
         <div className="skill">
             <div className="container">
                 <div className="row">
@@ -111,7 +113,7 @@ function Skills(){
         </div>
         <div className="skill">
             <div className="info">
-                <p> <span className="lista"> </span>Dominio de Agile. Experiencia trabajando con Sprint, Daily, ceremonias de inicio y cierre. Refinamientos y retrospectiva. Experiencia liderando como Deputy de Scrum Master.</p>
+                <p> <span className="lista"> </span>Manejo e integración de equipo Agile</p>
             </div>
 
         </div>

@@ -8,7 +8,7 @@ function Jobs(){
         <section id="portfolio">
             <h3 className="titulo-seccion">Proyectos</h3>
             <br/>
-            <p className='d-flex justify-content-center' id="description-portafolio">Estas son algunas de las compañías para las que he trabajado:</p>
+            <p className='d-flex justify-content-center' id="description-portafolio">Estas son algunas de las compañías con las que he tenido la oportunidad de trabajar y que han confíado en mi:</p>
 
            <ListJobs/>
 
